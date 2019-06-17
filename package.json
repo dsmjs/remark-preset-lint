@@ -1,0 +1,32 @@
+{
+  "name": "@dsmjs/remark-preset-lint",
+  "description": "remark preset to configure remark-lint with markdown style conventions",
+  "license": "MIT",
+  "version": "0.0.0-semantically-released",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "dsmjs/remark-preset-lint",
+  "bugs": "https://github.com/dsmjs/remark-preset-lint/issues",
+  "homepage": "https://npm.im/@dsmjs/remark-preset-lint",
+  "author": "dsmJS <maintainers@dsmjs.com> (https://dsmjs.com)",
+  "scripts": {
+    "test": "npm-run-all --print-label --parallel lint:*",
+    "lint:md": "remark . --frail",
+    "lint:sensitive": "ban",
+    "lint:travis": "travis-lint .travis.yml"
+  },
+  "devDependencies": {
+    "@form8ion/commitlint-config": "^1.0.3",
+    "@form8ion/remark-lint-preset": "^1.0.0",
+    "ban-sensitive-files": "^1.9.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^2.4.1",
+    "npm-run-all": "^4.1.5",
+    "remark-cli": "^6.0.1",
+    "travis-lint": "^1.0.0"
+  }
+}
