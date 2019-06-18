@@ -1,3 +1,3 @@
 exports.plugins = [
-  require('@form8ion/remark-preset-lint')
+  require('@form8ion/remark-lint-preset')
 ];
