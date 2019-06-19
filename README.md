@@ -18,6 +18,19 @@ markdown style conventions
 ```sh
 $ npm install remark remark-cli @dsmjs/remark-preset-lint --save-dev
 ```
+### Configure
+
+Add to the project's `.remarkrc.js`:
+
+```js
+exports.plugins = ['@dsmjs/remark-preset-lint'];
+```
+
+Add an npm script that will run as part of `npm test`:
+
+```
+"lint:md": "remark --frail ."
+```
 
 ## Contributing
 
