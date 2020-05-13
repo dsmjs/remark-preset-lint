@@ -45,7 +45,6 @@ Add an npm script that will run as part of `npm test`:
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
-[![Greenkeeper badge](https://badges.greenkeeper.io/dsmjs/remark-preset-lint.svg)](https://greenkeeper.io/)
 [![Dependabot][dependabot-badge]][dependabot-link]
 
 <!--contribution-badges end -->
