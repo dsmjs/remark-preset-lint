@@ -29,6 +29,6 @@
     "travis-lint": "^1.0.0"
   },
   "dependencies": {
-    "@form8ion/remark-lint-preset": "1.0.6"
+    "@form8ion/remark-lint-preset": "1.0.7"
   }
 }
