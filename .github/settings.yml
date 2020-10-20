@@ -4,3 +4,4 @@ repository:
   description: remark preset to configure remark-lint with markdown style conventions
   homepage: 'https://npm.im/@dsmjs/remark-preset-lint'
   private: false
+  topics: hacktoberfest
