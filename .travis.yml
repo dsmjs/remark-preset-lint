@@ -1,8 +1,0 @@
-version: ~> 1.0
-notifications:
-  email: false
-import:
-  - form8ion/.travis-ci:node.yml
-  - dsmjs/.travis-ci:authenticated-semantic-release.yml
-before_script:
-  - npm ls >/dev/null
