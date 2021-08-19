@@ -3,6 +3,7 @@
   "description": "remark preset to configure remark-lint with markdown style conventions",
   "license": "MIT",
   "version": "0.0.0-semantically-released",
+  "extends": "./index.js",
   "files": [
     "index.js"
   ],
@@ -30,6 +31,6 @@
     "remark-cli": "^10.0.0"
   },
   "dependencies": {
-    "@form8ion/remark-lint-preset": "1.0.13"
+    "@form8ion/remark-lint-preset": "2.0.0"
   }
 }
