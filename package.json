@@ -23,7 +23,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@dsmjs/eslint-config": "1.0.91",
+    "@dsmjs/eslint-config": "1.0.92",
     "@form8ion/commitlint-config": "^1.0.3",
     "ban-sensitive-files": "^1.9.2",
     "cz-conventional-changelog": "^3.0.2",
